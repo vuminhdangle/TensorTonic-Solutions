@@ -15,6 +15,8 @@ def train_logistic_regression(X, y, lr=0.1, steps=1000):
     + The gradient of L w.r.t b = 1/N * sum(p-y)
     
     Return (w, b).
+
+    If we want to see the accuracy : accuracy = np.mean(pred == y)
     """
     # Convert to numpy arrays
     X = np.array(X)
